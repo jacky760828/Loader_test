@@ -1,0 +1,149 @@
+[16:27:36] [Excel] 已開啟檔案，工作表數: 11
+[16:27:36] [Excel] 第一張表名：執行檔
+[16:27:36] [VISA] pyvisa 版本: unknown
+[16:27:36] [VISA] 後端失敗 => @ni: Wrapper not found: No package named pyvisa_ni
+[16:27:36] [VISA] 後端失敗 => @py: Wrapper not found: No package named pyvisa_py
+[16:27:37] [VISA] 後端可用: default，目前資源: ('USB0::0x0A69::0x0879::63206AL05247::INSTR', 'ASRL1::INSTR', 'ASRL2::INSTR')
+[16:27:37] [Status] VISA 後端：default
+[16:27:37] [VISA] 掃描到資源: ('USB0::0x0A69::0x0879::63206AL05247::INSTR', 'ASRL1::INSTR', 'ASRL2::INSTR')
+[16:27:37] [Status] 共找到 3 個資源
+[16:27:37] [Status] 已連線：USB0::0x0A69::0x0879::63206AL05247::INSTR  Chroma,63206A-150-600,63206AL05247,2.10,1.03,1.06
+[16:27:37] [VISA] 連線成功：USB0::0x0A69::0x0879::63206AL05247::INSTR；IDN='Chroma,63206A-150-600,63206AL05247,2.10,1.03,1.06'
+[16:27:43] [send_parameter] 目標工作表：第二步（index=3）
+[16:27:43] [send_parameter] ex_content 不足，先從該表產生一次 PROG:DATA 以取得資料
+[16:27:43] [Excel] 開始讀取工作表：第二步
+[16:27:43] [Excel] B 欄最後列 = 5
+[16:27:43] [Excel] 讀到筆數: 4
+[16:27:43] [Excel] 樣本(前3): [[2.0, 1.0], [2.0, 2.0], [2.0, 3.0]]
+[16:27:43] [Excel] 樣本(後3): [[2.0, 2.0], [2.0, 3.0], [2.0, 4.0]]
+[16:27:43] [Excel] 產生指令數: 4
+[16:27:43] [Excel] 首條指令: PROG:DATA 2,LIST,1,0,1
+[16:27:43] [Excel] 末條指令: PROG:DATA 2,LIST,4,0,4
+[16:27:43] [send_parameter] 來自 ex_content 的 row_count = 3
+[16:27:44] [Status] 開始載入數據，共 2 條
+[16:27:44] [WRITE] -> PROG:DATA:LIST  2,1,AUTO,CC,2,226.67,0.5,0.5,0.0004,-1,-1,-1,-1,-1,-1,1
+[16:27:44] [WRITE] -> PROG:DATA:LIST  2,2,AUTO,CC,2,25,0.5,0.5,0.0004,-1,-1,-1,-1,-1,-1,1
+[16:27:44] [Status] 載入進度：2/2
+[16:27:44] [WRITE] -> PROG:SAV
+[16:27:44] [Status] 載入完成，成功 2/2 條，已下達 PROG:SAV
+[16:27:44] [send_parameter] 程式已儲存 (PROG:SAV)
+[16:27:44] [send_parameter] 目標工作表：第三步（index=4）
+[16:27:44] [send_parameter] 來自 ex_content 的 row_count = 4
+[16:27:44] [Status] 開始載入數據，共 3 條
+[16:27:44] [WRITE] -> PROG:DATA:LIST  3,1,AUTO,CC,2,226.67,0.5,0.5,0.0004,-1,-1,-1,-1,-1,-1,1
+[16:27:44] [WRITE] -> PROG:DATA:LIST  3,2,AUTO,CC,2,191.67,0.5,0.5,0.0002,-1,-1,-1,-1,-1,-1,1
+[16:27:44] [WRITE] -> PROG:DATA:LIST  3,3,AUTO,CC,2,25,0.5,0.5,0.00045,-1,-1,-1,-1,-1,-1,1
+[16:27:44] [Status] 載入進度：3/3
+[16:27:44] [WRITE] -> PROG:SAV
+[16:27:44] [Status] 載入完成，成功 3/3 條，已下達 PROG:SAV
+[16:27:44] [send_parameter] 程式已儲存 (PROG:SAV)
+[16:27:44] [send_parameter] 目標工作表：第四步（index=5）
+[16:27:44] [send_parameter] ex_content 不足，先從該表產生一次 PROG:DATA 以取得資料
+[16:27:44] [Excel] 開始讀取工作表：第四步
+[16:27:44] [Excel] B 欄最後列 = 5
+[16:27:44] [Excel] 讀到筆數: 4
+[16:27:44] [Excel] 樣本(前3): [[1.0, 226.67], [2.0, 191.67], [3.0, 25.0]]
+[16:27:44] [Excel] 樣本(後3): [[2.0, 191.67], [3.0, 25.0], [4.0, None]]
+[16:27:44] [Excel] 產生指令數: 3
+[16:27:44] [Excel] 首條指令: PROG:DATA 1,LIST,226.67,0,226.67
+[16:27:44] [Excel] 末條指令: PROG:DATA 3,LIST,25,0,25
+[16:27:45] [send_parameter] ex_content 仍不足，改用自動列數 row_count=4
+[16:27:45] [Status] 沒有可送出的 PROG:DATA:LIST 指令
+[16:27:45] [send_parameter] 目標工作表：第五步（index=6）
+[16:27:45] [send_parameter] ex_content 不足，先從該表產生一次 PROG:DATA 以取得資料
+[16:27:45] [Excel] 開始讀取工作表：第五步
+[16:27:45] [Excel] B 欄最後列 = 5
+[16:27:45] [Excel] 讀到筆數: 4
+[16:27:45] [Excel] 樣本(前3): [[5.0, 1.0], [5.0, 2.0], [5.0, 3.0]]
+[16:27:45] [Excel] 樣本(後3): [[5.0, 2.0], [5.0, 3.0], [5.0, 4.0]]
+[16:27:45] [Excel] 產生指令數: 4
+[16:27:45] [Excel] 首條指令: PROG:DATA 5,LIST,1,0,1
+[16:27:45] [Excel] 末條指令: PROG:DATA 5,LIST,4,0,4
+[16:27:45] [send_parameter] ex_content 仍不足，改用自動列數 row_count=4
+[16:27:45] [Status] 開始載入數據，共 3 條
+[16:27:45] [WRITE] -> PROG:DATA:LIST  5,1,AUTO,CC,2,226.67,0.5,0.5,0.0004,-1,-1,-1,-1,-1,-1,1
+[16:27:45] [WRITE] -> PROG:DATA:LIST  5,2,AUTO,CC,2,191.67,0.5,0.5,0.0002,-1,-1,-1,-1,-1,-1,1
+[16:27:45] [WRITE] -> PROG:DATA:LIST  5,3,AUTO,CC,2,25,0.5,0.5,0.0016,-1,-1,-1,-1,-1,-1,1
+[16:27:45] [Status] 載入進度：3/3
+[16:27:45] [WRITE] -> PROG:SAV
+[16:27:45] [Status] 載入完成，成功 3/3 條，已下達 PROG:SAV
+[16:27:45] [send_parameter] 程式已儲存 (PROG:SAV)
+[16:27:45] [send_parameter] 目標工作表：第六步（index=7）
+[16:27:45] [send_parameter] ex_content 不足，先從該表產生一次 PROG:DATA 以取得資料
+[16:27:45] [Excel] 開始讀取工作表：第六步
+[16:27:46] [Excel] B 欄最後列 = 5
+[16:27:46] [Excel] 讀到筆數: 4
+[16:27:46] [Excel] 樣本(前3): [[6.0, 1.0], [6.0, 2.0], [6.0, 3.0]]
+[16:27:46] [Excel] 樣本(後3): [[6.0, 2.0], [6.0, 3.0], [6.0, 4.0]]
+[16:27:46] [Excel] 產生指令數: 4
+[16:27:46] [Excel] 首條指令: PROG:DATA 6,LIST,1,0,1
+[16:27:46] [Excel] 末條指令: PROG:DATA 6,LIST,4,0,4
+[16:27:46] [send_parameter] ex_content 仍不足，改用自動列數 row_count=4
+[16:27:46] [Status] 開始載入數據，共 3 條
+[16:27:46] [WRITE] -> PROG:DATA:LIST  6,1,AUTO,CC,2,226.67,0.5,0.5,0.0004,-1,-1,-1,-1,-1,-1,1
+[16:27:46] [WRITE] -> PROG:DATA:LIST  6,2,AUTO,CC,2,191.67,0.5,0.5,0.0006,-1,-1,-1,-1,-1,-1,1
+[16:27:46] [WRITE] -> PROG:DATA:LIST  6,3,AUTO,CC,2,25,0.5,0.5,0.0036,-1,-1,-1,-1,-1,-1,1
+[16:27:46] [Status] 載入進度：3/3
+[16:27:46] [WRITE] -> PROG:SAV
+[16:27:46] [Status] 載入完成，成功 3/3 條，已下達 PROG:SAV
+[16:27:46] [send_parameter] 程式已儲存 (PROG:SAV)
+[16:27:46] [send_parameter] 目標工作表：第七步（index=8）
+[16:27:46] [send_parameter] ex_content 不足，先從該表產生一次 PROG:DATA 以取得資料
+[16:27:46] [Excel] 開始讀取工作表：第七步
+[16:27:46] [Excel] B 欄最後列 = 5
+[16:27:46] [Excel] 讀到筆數: 4
+[16:27:46] [Excel] 樣本(前3): [[7.0, 1.0], [7.0, 2.0], [7.0, 3.0]]
+[16:27:46] [Excel] 樣本(後3): [[7.0, 2.0], [7.0, 3.0], [7.0, 4.0]]
+[16:27:46] [Excel] 產生指令數: 4
+[16:27:46] [Excel] 首條指令: PROG:DATA 7,LIST,1,0,1
+[16:27:46] [Excel] 末條指令: PROG:DATA 7,LIST,4,0,4
+[16:27:46] [send_parameter] ex_content 仍不足，改用自動列數 row_count=4
+[16:27:46] [Status] 開始載入數據，共 3 條
+[16:27:46] [WRITE] -> PROG:DATA:LIST  7,1,AUTO,CC,2,226.67,0.5,0.5,0.0004,-1,-1,-1,-1,-1,-1,1
+[16:27:46] [WRITE] -> PROG:DATA:LIST  7,2,AUTO,CC,2,191.67,0.5,0.5,0.0126,-1,-1,-1,-1,-1,-1,1
+[16:27:46] [WRITE] -> PROG:DATA:LIST  7,3,AUTO,CC,2,25,0.5,0.5,0.007,-1,-1,-1,-1,-1,-1,1
+[16:27:46] [Status] 載入進度：3/3
+[16:27:46] [WRITE] -> PROG:SAV
+[16:27:46] [Status] 載入完成，成功 3/3 條，已下達 PROG:SAV
+[16:27:46] [send_parameter] 程式已儲存 (PROG:SAV)
+[16:27:46] [send_parameter] 目標工作表：第八步（index=9）
+[16:27:46] [send_parameter] ex_content 不足，先從該表產生一次 PROG:DATA 以取得資料
+[16:27:46] [Excel] 開始讀取工作表：第八步
+[16:27:47] [Excel] B 欄最後列 = 5
+[16:27:47] [Excel] 讀到筆數: 4
+[16:27:47] [Excel] 樣本(前3): [[8.0, 1.0], [8.0, 2.0], [8.0, 3.0]]
+[16:27:47] [Excel] 樣本(後3): [[8.0, 2.0], [8.0, 3.0], [8.0, 4.0]]
+[16:27:47] [Excel] 產生指令數: 4
+[16:27:47] [Excel] 首條指令: PROG:DATA 8,LIST,1,0,1
+[16:27:47] [Excel] 末條指令: PROG:DATA 8,LIST,4,0,4
+[16:27:47] [send_parameter] ex_content 仍不足，改用自動列數 row_count=4
+[16:27:47] [Status] 開始載入數據，共 3 條
+[16:27:47] [WRITE] -> PROG:DATA:LIST  8,1,AUTO,CC,2,226.67,0.5,0.5,0.0004,-1,-1,-1,-1,-1,-1,1
+[16:27:47] [WRITE] -> PROG:DATA:LIST  8,2,AUTO,CC,2,191.67,0.5,0.5,0.0321,-1,-1,-1,-1,-1,-1,1
+[16:27:47] [WRITE] -> PROG:DATA:LIST  8,3,AUTO,CC,2,25,0.5,0.5,0.0172,-1,-1,-1,-1,-1,-1,1
+[16:27:47] [Status] 載入進度：3/3
+[16:27:47] [WRITE] -> PROG:SAV
+[16:27:47] [Status] 載入完成，成功 3/3 條，已下達 PROG:SAV
+[16:27:47] [send_parameter] 程式已儲存 (PROG:SAV)
+[16:27:47] [send_parameter] 目標工作表：第九步（index=10）
+[16:27:47] [send_parameter] ex_content 不足，先從該表產生一次 PROG:DATA 以取得資料
+[16:27:47] [Excel] 開始讀取工作表：第九步
+[16:27:47] [Excel] B 欄最後列 = 5
+[16:27:47] [Excel] 讀到筆數: 4
+[16:27:47] [Excel] 樣本(前3): [[9.0, 1.0], [9.0, 2.0], [9.0, 3.0]]
+[16:27:47] [Excel] 樣本(後3): [[9.0, 2.0], [9.0, 3.0], [9.0, 4.0]]
+[16:27:47] [Excel] 產生指令數: 4
+[16:27:47] [Excel] 首條指令: PROG:DATA 9,LIST,1,0,1
+[16:27:47] [Excel] 末條指令: PROG:DATA 9,LIST,4,0,4
+[16:27:47] [send_parameter] ex_content 仍不足，改用自動列數 row_count=4
+[16:27:47] [Status] 開始載入數據，共 4 條
+[16:27:47] [WRITE] -> PROG:DATA:LIST  9,1,AUTO,CC,2,226.67,0.5,0.5,0.0004,-1,-1,-1,-1,-1,-1,1
+[16:27:47] [WRITE] -> PROG:DATA:LIST  9,2,AUTO,CC,2,191.67,0.5,0.5,0.05,-1,-1,-1,-1,-1,-1,1
+[16:27:47] [WRITE] -> PROG:DATA:LIST  9,3,AUTO,CC,2,133.33,0.5,0.5,0.0236,-1,-1,-1,-1,-1,-1,1
+[16:27:47] [WRITE] -> PROG:DATA:LIST  9,4,AUTO,CC,2,25,0.5,0.5,0.026,-1,-1,-1,-1,-1,-1,1
+[16:27:47] [Status] 載入進度：4/4
+[16:27:47] [WRITE] -> PROG:SAV
+[16:27:47] [Status] 載入完成，成功 4/4 條，已下達 PROG:SAV
+[16:27:47] [send_parameter] 程式已儲存 (PROG:SAV)
+[16:28:48] [WRITE] -> LOAD OFF
+[16:28:48] [Status] 已關閉負載

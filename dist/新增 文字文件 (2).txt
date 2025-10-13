@@ -1,0 +1,13 @@
+程式1序列1參數: 1,1,AUTO(1),CC(0),HIGH(2),226.670,0.500,0.500,0.0001,-1,-1,-1,-1,-1,-1,1.0000
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "tkinter\__init__.py", line 2068, in __call__
+  File "script.py", line 277, in SET_Meth1
+AttributeError: 'USBInstrument' object has no attribute 'inst'
+
+程式1序列1參數: 1,1,AUTO(1),CC(0),HIGH(2),226.670,0.500,0.500,0.0001,-1,-1,-1,-1,-1,-1,1.0000
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "tkinter\__init__.py", line 2068, in __call__
+  File "script.py", line 277, in SET_Meth1
+AttributeError: 'USBInstrument' object has no attribute 'inst'
