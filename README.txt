@@ -1,7 +1,7 @@
 wxPython Demo and Samples
 =========================
+![image](https://github.com/jacky760828/Loader_test/blob/main/loadtest.png)
 
-<img src="https://github.com/jacky760828/Loader_test/blob/main/loadtest.png" width="700">
 This archive contains a copy of the wxPython Phoenix demo, and also a
 collection of small sample applications.
 
