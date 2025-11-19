@@ -1,0 +1,31 @@
+2025-10-20 14:11:35,596 [DEBUG] [面板0] excel_sheets loaded=True, count=11, names=['執行檔', '第一測項', '第二測項', '第三測項', '第四測項', '第五測項', '第六測項', '第七測項', '第八測項', '第九測項', '第十測項']
+2025-10-20 14:11:35,597 [INFO] [面板0] 目標工作表：執行檔（index=1）
+2025-10-20 14:11:35,597 [DEBUG] [面板0] ex_content 清空（原 len=0）
+2025-10-20 14:11:35,598 [INFO] [Excel] 開始讀取工作表：執行檔
+2025-10-20 14:11:35,640 [DEBUG] [Excel] B 欄最後列 = 6
+2025-10-20 14:11:35,659 [INFO] [Excel] 讀到筆數:5
+[]
+2025-10-20 14:11:35,660 [INFO] [Excel] 長度:0
+2025-10-20 14:11:35,660 [DEBUG] [Excel] ex_content 範例：前3=[] 後3=[]
+2025-10-20 14:11:35,660 [INFO] [Excel]產生指令數:5
+2025-10-20 14:11:35,660 [DEBUG] [Excel] 首條指令: PROG:DATA 1,LIST,2,0,2
+2025-10-20 14:11:35,660 [DEBUG] [Excel] 末條指令: PROG:DATA 5,LIST,3,0,3
+2025-10-20 14:11:35,661 [INFO] [面板0] ex_content 重建完成，len=5；前5=[2, 3]；後5=[4, 3]
+2025-10-20 14:11:35,661 [DEBUG] [面板0] row_count 來自 ex_content[0] -> 2
+2025-10-20 14:11:35,742 [INFO] [面板0] 已產生 PROG:DATA:LIST：0 條
+2025-10-20 14:11:35,763 [WARNING] [面板0] PROG:DATA:LIST 為空
+
+
+2025-10-20 16:02:00,891 [INFO] [Excel] 長度:0
+2025-10-20 16:02:00,891 [DEBUG] [Excel] ex_content 範例：前3=[] 後3=[]
+2025-10-20 16:02:00,892 [INFO] [Excel]產生指令數:5
+2025-10-20 16:02:00,892 [DEBUG] [Excel] 首條指令: PROG:DATA 1,LIST,2,0,2
+2025-10-20 16:02:00,892 [DEBUG] [Excel] 末條指令: PROG:DATA 5,LIST,3,0,3
+2025-10-20 16:02:00,893 [INFO] [面板0] ex_content 重建完成，len=5；前2=[2, 3]；後2=[4, 3]
+2025-10-20 16:02:00,893 [DEBUG] [面板0] row_count 來自 ex_content[0] -> 2
+2025-10-20 16:02:00,895 [DEBUG] [generate_prog_data2] start: sheet=執行檔, row_count(arg)=2
+2025-10-20 16:02:01,014 [DEBUG] [generate_prog_data2] read block: rows=2
+2025-10-20 16:02:01,015 [DEBUG] [generate_prog_data2] sample head: [[1.0, 2.0, None, None, None], [2.0, 3.0, None, None, None]]
+2025-10-20 16:02:01,015 [DEBUG] [generate_prog_data2] skip row (empty or has None): [1.0, 2.0, None, None, None]
+2025-10-20 16:02:01,015 [DEBUG] [generate_prog_data2] skip row (empty or has None): [2.0, 3.0, None, None, None]
+2025-10-20 16:02:01,015 [INFO] [generate_prog_data2] generated commands: 0

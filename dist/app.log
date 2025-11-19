@@ -11847,3 +11847,195 @@ Buffer content: bytearray(b'')
 2025-10-13 11:24:29,711 [DEBUG] viClose(1,) -> 0
 2025-10-13 11:24:29,711 [DEBUG] USB0::0x0A69::0x0879::63206AL04394::0::INSTR - is closed
 2025-10-13 11:24:29,736 [DEBUG] viClose(4097,) -> 0
+2025-10-13 14:48:29,594 [WARNING] [VISA] 後端失敗 => @ni: Wrapper not found: No package named pyvisa_ni
+2025-10-13 14:48:29,596 [WARNING] [VISA] 後端失敗 => @py: Wrapper not found: No package named pyvisa_py
+2025-10-13 14:48:29,596 [DEBUG] No visa library specified, trying to find alternatives.
+2025-10-13 14:48:29,596 [DEBUG] Environment variable PYVISA_LIBRARY is unset.
+2025-10-13 14:48:29,603 [DEBUG] No user defined configuration
+2025-10-13 14:48:29,604 [DEBUG] Automatically found library files: [None, 'C:\\WINDOWS\\system32\\visa32.dll', 'C:\\WINDOWS\\system32\\visa32.dll', 'C:\\WINDOWS\\system32\\visa64.dll', 'C:\\WINDOWS\\system32\\visa64.dll']
+2025-10-13 14:48:29,605 [DEBUG] No user defined library files
+2025-10-13 14:48:29,605 [DEBUG] The IVI implementation available
+2025-10-13 14:48:29,605 [DEBUG] No user defined configuration
+2025-10-13 14:48:29,607 [DEBUG] Automatically found library files: [None, 'C:\\WINDOWS\\system32\\visa32.dll', 'C:\\WINDOWS\\system32\\visa32.dll', 'C:\\WINDOWS\\system32\\visa64.dll', 'C:\\WINDOWS\\system32\\visa64.dll']
+2025-10-13 14:48:29,607 [DEBUG] No user defined library files
+2025-10-13 14:48:29,619 [DEBUG] Library signatures: 90 ok, 0 failed
+2025-10-13 14:48:29,619 [DEBUG] Created library wrapper for C:\WINDOWS\system32\visa32.dll
+2025-10-13 14:48:29,707 [DEBUG] viOpenDefaultRM('<ViObject object at 0x000001C11830E9D0>',) -> 0
+2025-10-13 14:48:29,708 [DEBUG] Created ResourceManager with session 4097
+2025-10-13 14:48:30,086 [DEBUG] viFindRsrc(4097, '?*::INSTR', '<ViObject object at 0x000001C11830EBD0>', 'c_ulong(2)', <ctypes.c_char_Array_256 object at 0x000001C11830ED50>) -> 0
+2025-10-13 14:48:30,086 [DEBUG] viFindNext(<ViObject object at 0x000001C11830EBD0>, <ctypes.c_char_Array_256 object at 0x000001C11830ED50>) -> 0
+2025-10-13 14:48:30,086 [DEBUG] viClose(<ViObject object at 0x000001C11830EBD0>,) -> 0
+2025-10-13 14:48:30,087 [INFO] [VISA] 後端可用: default，目前資源: ('ASRL1::INSTR', 'ASRL2::INSTR')
+2025-10-13 14:48:30,096 [INFO] [Status] VISA 後端：default
+2025-10-13 14:48:30,101 [DEBUG] viFindRsrc(4097, '?*::INSTR', '<ViObject object at 0x000001C11830EBD0>', 'c_ulong(2)', <ctypes.c_char_Array_256 object at 0x000001C11830F1D0>) -> 0
+2025-10-13 14:48:30,101 [DEBUG] viFindNext(<ViObject object at 0x000001C11830EBD0>, <ctypes.c_char_Array_256 object at 0x000001C11830F1D0>) -> 0
+2025-10-13 14:48:30,101 [DEBUG] viClose(<ViObject object at 0x000001C11830EBD0>,) -> 0
+2025-10-13 14:48:30,102 [INFO] [VISA] 掃描到資源: ('ASRL1::INSTR', 'ASRL2::INSTR')
+2025-10-13 14:48:30,120 [INFO] [Status] 共找到 2 個資源
+2025-10-13 14:48:30,121 [DEBUG] viParseRsrcEx(4097, 'ASRL1::INSTR', 'c_ushort(4)', 'c_ushort(1)', <ctypes.c_char_Array_256 object at 0x000001C11830F6D0>, <ctypes.c_char_Array_256 object at 0x000001C11830F7D0>, <ctypes.c_char_Array_256 object at 0x000001C11830F850>) -> 0
+2025-10-13 14:48:30,122 [DEBUG] ASRL1::INSTR - opening ...
+2025-10-13 14:48:30,129 [DEBUG] viOpen(4097, 'ASRL1::INSTR', <AccessModes.no_lock: 0>, 0, '<ViObject object at 0x000001C11830F6D0>') -> 0
+2025-10-13 14:48:30,130 [DEBUG] ASRL1::INSTR - is open with session 1
+2025-10-13 14:48:30,131 [DEBUG] viSetAttribute(1, 1073676314, 5000) -> 0
+2025-10-13 14:48:30,131 [DEBUG] viSetAttribute(1, <ResourceAttribute.termchar: 1073676312>, 10) -> 0
+2025-10-13 14:48:30,131 [DEBUG] viSetAttribute(1, <ResourceAttribute.termchar_enabled: 1073676344>, 1) -> 0
+2025-10-13 14:48:30,134 [DEBUG] viWrite(1, b'*IDN?\n', 6, 'c_ulong(6)') -> -1073807298
+2025-10-13 14:48:30,136 [INFO] [Status] 已連線：ASRL1::INSTR  
+2025-10-13 14:48:30,136 [INFO] [VISA] 連線成功：ASRL1::INSTR；IDN='N/A'
+2025-10-13 14:48:33,269 [INFO] [Excel] 已開啟檔案：C:\Users\jacky.fan\PyCharmMiscProject\Loader_test\dist\執行檔.xlsx，工作表數: 11（取前 11 張）
+2025-10-13 14:48:33,271 [DEBUG] [Excel] 第一張表名：執行檔
+2025-10-13 15:16:28,546 [INFO] [App] 關閉程式，釋放資源...
+2025-10-13 15:16:28,591 [DEBUG] [Excel] 工作簿已關閉
+2025-10-13 15:16:30,864 [DEBUG] [Excel] Excel 應用已結束
+2025-10-13 15:16:31,013 [DEBUG] Closing ResourceManager (session: 4097)
+2025-10-13 15:16:31,014 [DEBUG] ASRL1::INSTR - closing
+2025-10-13 15:16:31,014 [DEBUG] viDisableEvent(1, <EventType.all_enabled: 1073709055>, <EventMechanism.all: 65535>) -> 1073676291
+2025-10-13 15:16:31,015 [DEBUG] viDiscardEvents(1, <EventType.all_enabled: 1073709055>, <EventMechanism.all: 65535>) -> 1073676292
+2025-10-13 15:16:31,017 [DEBUG] viClose(1,) -> 0
+2025-10-13 15:16:31,018 [DEBUG] ASRL1::INSTR - is closed
+2025-10-13 15:16:31,032 [DEBUG] viClose(4097,) -> 0
+2025-10-16 19:40:22,148 [WARNING] [VISA] 後端失敗 => @ni: Wrapper not found: No package named pyvisa_ni
+2025-10-16 19:40:22,150 [WARNING] [VISA] 後端失敗 => @py: Wrapper not found: No package named pyvisa_py
+2025-10-16 19:40:22,150 [DEBUG] No visa library specified, trying to find alternatives.
+2025-10-16 19:40:22,151 [DEBUG] Environment variable PYVISA_LIBRARY is unset.
+2025-10-16 19:40:22,157 [DEBUG] No user defined configuration
+2025-10-16 19:40:22,158 [DEBUG] Automatically found library files: [None, 'C:\\WINDOWS\\system32\\visa32.dll', 'C:\\WINDOWS\\system32\\visa32.dll', 'C:\\WINDOWS\\system32\\visa64.dll', 'C:\\WINDOWS\\system32\\visa64.dll']
+2025-10-16 19:40:22,159 [DEBUG] No user defined library files
+2025-10-16 19:40:22,159 [DEBUG] The IVI implementation available
+2025-10-16 19:40:22,159 [DEBUG] No user defined configuration
+2025-10-16 19:40:22,161 [DEBUG] Automatically found library files: [None, 'C:\\WINDOWS\\system32\\visa32.dll', 'C:\\WINDOWS\\system32\\visa32.dll', 'C:\\WINDOWS\\system32\\visa64.dll', 'C:\\WINDOWS\\system32\\visa64.dll']
+2025-10-16 19:40:22,161 [DEBUG] No user defined library files
+2025-10-16 19:40:22,194 [DEBUG] Library signatures: 90 ok, 0 failed
+2025-10-16 19:40:22,195 [DEBUG] Created library wrapper for C:\WINDOWS\system32\visa32.dll
+2025-10-16 19:40:22,348 [DEBUG] viOpenDefaultRM('<ViObject object at 0x000001D1DB48E9D0>',) -> 0
+2025-10-16 19:40:22,348 [DEBUG] Created ResourceManager with session 4097
+2025-10-16 19:40:22,735 [DEBUG] viFindRsrc(4097, '?*::INSTR', '<ViObject object at 0x000001D1DB48EBD0>', 'c_ulong(2)', <ctypes.c_char_Array_256 object at 0x000001D1DB48ED50>) -> 0
+2025-10-16 19:40:22,736 [DEBUG] viFindNext(<ViObject object at 0x000001D1DB48EBD0>, <ctypes.c_char_Array_256 object at 0x000001D1DB48ED50>) -> 0
+2025-10-16 19:40:22,736 [DEBUG] viClose(<ViObject object at 0x000001D1DB48EBD0>,) -> 0
+2025-10-16 19:40:22,736 [INFO] [VISA] 後端可用: default，目前資源: ('ASRL1::INSTR', 'ASRL2::INSTR')
+2025-10-16 19:40:22,745 [INFO] [Status] VISA 後端：default
+2025-10-16 19:40:22,750 [DEBUG] viFindRsrc(4097, '?*::INSTR', '<ViObject object at 0x000001D1DB48EBD0>', 'c_ulong(2)', <ctypes.c_char_Array_256 object at 0x000001D1DB48F1D0>) -> 0
+2025-10-16 19:40:22,750 [DEBUG] viFindNext(<ViObject object at 0x000001D1DB48EBD0>, <ctypes.c_char_Array_256 object at 0x000001D1DB48F1D0>) -> 0
+2025-10-16 19:40:22,750 [DEBUG] viClose(<ViObject object at 0x000001D1DB48EBD0>,) -> 0
+2025-10-16 19:40:22,751 [INFO] [VISA] 掃描到資源: ('ASRL1::INSTR', 'ASRL2::INSTR')
+2025-10-16 19:40:22,768 [INFO] [Status] 共找到 2 個資源
+2025-10-16 19:40:22,769 [DEBUG] viParseRsrcEx(4097, 'ASRL1::INSTR', 'c_ushort(4)', 'c_ushort(1)', <ctypes.c_char_Array_256 object at 0x000001D1DB48F6D0>, <ctypes.c_char_Array_256 object at 0x000001D1DB48F7D0>, <ctypes.c_char_Array_256 object at 0x000001D1DB48F850>) -> 0
+2025-10-16 19:40:22,769 [DEBUG] ASRL1::INSTR - opening ...
+2025-10-16 19:40:22,784 [DEBUG] viOpen(4097, 'ASRL1::INSTR', <AccessModes.no_lock: 0>, 0, '<ViObject object at 0x000001D1DB48F6D0>') -> 0
+2025-10-16 19:40:22,784 [DEBUG] ASRL1::INSTR - is open with session 1
+2025-10-16 19:40:22,784 [DEBUG] viSetAttribute(1, 1073676314, 5000) -> 0
+2025-10-16 19:40:22,785 [DEBUG] viSetAttribute(1, <ResourceAttribute.termchar: 1073676312>, 10) -> 0
+2025-10-16 19:40:22,785 [DEBUG] viSetAttribute(1, <ResourceAttribute.termchar_enabled: 1073676344>, 1) -> 0
+2025-10-16 19:40:22,785 [DEBUG] viWrite(1, b'*IDN?\n', 6, 'c_ulong(6)') -> -1073807298
+2025-10-16 19:40:22,788 [INFO] [Status] 已連線：ASRL1::INSTR  
+2025-10-16 19:40:22,788 [INFO] [VISA] 連線成功：ASRL1::INSTR；IDN='N/A'
+2025-10-16 19:40:26,355 [INFO] [Excel] 已開啟檔案：C:\Users\jacky.fan\PyCharmMiscProject\Loader_test\dist\執行檔.xlsx，工作表數: 11（取前 11 張）
+2025-10-16 19:40:26,365 [DEBUG] [Excel] 第一張表名：執行檔
+2025-10-16 19:40:30,980 [DEBUG] viParseRsrcEx(4097, 'ASRL1::INSTR', 'c_ushort(4)', 'c_ushort(1)', <ctypes.c_char_Array_256 object at 0x000001D1DB4D04D0>, <ctypes.c_char_Array_256 object at 0x000001D1DB4D0550>, <ctypes.c_char_Array_256 object at 0x000001D1DB4D05D0>) -> 0
+2025-10-16 19:40:30,980 [DEBUG] ASRL1::INSTR - opening ...
+2025-10-16 19:40:30,981 [DEBUG] viOpen(4097, 'ASRL1::INSTR', <AccessModes.no_lock: 0>, 0, '<ViObject object at 0x000001D1DB4D04D0>') -> 0
+2025-10-16 19:40:30,981 [DEBUG] ASRL1::INSTR - is open with session 2
+2025-10-16 19:40:30,981 [DEBUG] ASRL1::INSTR - closing
+2025-10-16 19:40:30,981 [DEBUG] viDisableEvent(1, <EventType.all_enabled: 1073709055>, <EventMechanism.all: 65535>) -> 1073676291
+2025-10-16 19:40:30,982 [DEBUG] viDiscardEvents(1, <EventType.all_enabled: 1073709055>, <EventMechanism.all: 65535>) -> 1073676292
+2025-10-16 19:40:30,982 [DEBUG] viClose(1,) -> 0
+2025-10-16 19:40:30,982 [DEBUG] ASRL1::INSTR - is closed
+2025-10-16 19:40:30,982 [DEBUG] viSetAttribute(2, 1073676314, 5000) -> 0
+2025-10-16 19:40:30,982 [DEBUG] viSetAttribute(2, <ResourceAttribute.termchar: 1073676312>, 10) -> 0
+2025-10-16 19:40:30,983 [DEBUG] viSetAttribute(2, <ResourceAttribute.termchar_enabled: 1073676344>, 1) -> 0
+2025-10-16 19:40:30,984 [DEBUG] viWrite(2, b'*IDN?\n', 6, 'c_ulong(6)') -> -1073807298
+2025-10-16 19:40:30,984 [INFO] [Status] 已連線：ASRL1::INSTR  
+2025-10-16 19:40:30,984 [INFO] [VISA] 連線成功：ASRL1::INSTR；IDN='N/A'
+2025-10-16 19:40:33,519 [INFO] [Excel] 已開啟檔案：C:\Users\jacky.fan\PyCharmMiscProject\Loader_test\dist\執行檔.xlsx，工作表數: 11（取前 11 張）
+2025-10-16 19:40:33,521 [DEBUG] [Excel] 第一張表名：執行檔
+2025-10-16 19:40:40,004 [DEBUG] viWrite(2, b'PROG:SEQ:CLE 1\n', 15, 'c_ulong(15)') -> -1073807298
+2025-10-16 19:41:03,805 [DEBUG] viWrite(2, b'PROG:SEQ:CLE 1\n', 15, 'c_ulong(15)') -> -1073807298
+2025-10-16 19:41:16,365 [INFO] [App] 關閉程式，釋放資源...
+2025-10-16 19:41:16,412 [DEBUG] [Excel] 工作簿已關閉
+2025-10-16 19:41:17,521 [DEBUG] [Excel] Excel 應用已結束
+2025-10-16 19:41:17,602 [DEBUG] Closing ResourceManager (session: 4097)
+2025-10-16 19:41:17,602 [DEBUG] ASRL1::INSTR - closing
+2025-10-16 19:41:17,602 [DEBUG] viDisableEvent(2, <EventType.all_enabled: 1073709055>, <EventMechanism.all: 65535>) -> 1073676291
+2025-10-16 19:41:17,602 [DEBUG] viDiscardEvents(2, <EventType.all_enabled: 1073709055>, <EventMechanism.all: 65535>) -> 1073676292
+2025-10-16 19:41:17,604 [DEBUG] viClose(2,) -> 0
+2025-10-16 19:41:17,605 [DEBUG] ASRL1::INSTR - is closed
+2025-10-16 19:41:17,611 [DEBUG] viClose(4097,) -> 0
+2025-10-16 19:42:36,666 [WARNING] [VISA] 後端失敗 => @ni: Wrapper not found: No package named pyvisa_ni
+2025-10-16 19:42:36,668 [WARNING] [VISA] 後端失敗 => @py: Wrapper not found: No package named pyvisa_py
+2025-10-16 19:42:36,668 [DEBUG] No visa library specified, trying to find alternatives.
+2025-10-16 19:42:36,668 [DEBUG] Environment variable PYVISA_LIBRARY is unset.
+2025-10-16 19:42:36,676 [DEBUG] No user defined configuration
+2025-10-16 19:42:36,678 [DEBUG] Automatically found library files: [None, 'C:\\WINDOWS\\system32\\visa32.dll', 'C:\\WINDOWS\\system32\\visa32.dll', 'C:\\WINDOWS\\system32\\visa64.dll', 'C:\\WINDOWS\\system32\\visa64.dll']
+2025-10-16 19:42:36,678 [DEBUG] No user defined library files
+2025-10-16 19:42:36,678 [DEBUG] The IVI implementation available
+2025-10-16 19:42:36,679 [DEBUG] No user defined configuration
+2025-10-16 19:42:36,680 [DEBUG] Automatically found library files: [None, 'C:\\WINDOWS\\system32\\visa32.dll', 'C:\\WINDOWS\\system32\\visa32.dll', 'C:\\WINDOWS\\system32\\visa64.dll', 'C:\\WINDOWS\\system32\\visa64.dll']
+2025-10-16 19:42:36,681 [DEBUG] No user defined library files
+2025-10-16 19:42:36,694 [DEBUG] Library signatures: 90 ok, 0 failed
+2025-10-16 19:42:36,695 [DEBUG] Created library wrapper for C:\WINDOWS\system32\visa32.dll
+2025-10-16 19:42:36,777 [DEBUG] viOpenDefaultRM('<ViObject object at 0x000002CFC0D1E9D0>',) -> 0
+2025-10-16 19:42:36,777 [DEBUG] Created ResourceManager with session 4097
+2025-10-16 19:42:37,207 [DEBUG] viFindRsrc(4097, '?*::INSTR', '<ViObject object at 0x000002CFC0D1EBD0>', 'c_ulong(2)', <ctypes.c_char_Array_256 object at 0x000002CFC0D1ED50>) -> 0
+2025-10-16 19:42:37,208 [DEBUG] viFindNext(<ViObject object at 0x000002CFC0D1EBD0>, <ctypes.c_char_Array_256 object at 0x000002CFC0D1ED50>) -> 0
+2025-10-16 19:42:37,208 [DEBUG] viClose(<ViObject object at 0x000002CFC0D1EBD0>,) -> 0
+2025-10-16 19:42:37,208 [INFO] [VISA] 後端可用: default，目前資源: ('ASRL1::INSTR', 'ASRL2::INSTR')
+2025-10-16 19:42:37,219 [INFO] [Status] VISA 後端：default
+2025-10-16 19:42:37,224 [DEBUG] viFindRsrc(4097, '?*::INSTR', '<ViObject object at 0x000002CFC0D1EBD0>', 'c_ulong(2)', <ctypes.c_char_Array_256 object at 0x000002CFC0D1F1D0>) -> 0
+2025-10-16 19:42:37,224 [DEBUG] viFindNext(<ViObject object at 0x000002CFC0D1EBD0>, <ctypes.c_char_Array_256 object at 0x000002CFC0D1F1D0>) -> 0
+2025-10-16 19:42:37,225 [DEBUG] viClose(<ViObject object at 0x000002CFC0D1EBD0>,) -> 0
+2025-10-16 19:42:37,225 [INFO] [VISA] 掃描到資源: ('ASRL1::INSTR', 'ASRL2::INSTR')
+2025-10-16 19:42:37,246 [INFO] [Status] 共找到 2 個資源
+2025-10-16 19:42:37,247 [DEBUG] viParseRsrcEx(4097, 'ASRL1::INSTR', 'c_ushort(4)', 'c_ushort(1)', <ctypes.c_char_Array_256 object at 0x000002CFC0D1F6D0>, <ctypes.c_char_Array_256 object at 0x000002CFC0D1F7D0>, <ctypes.c_char_Array_256 object at 0x000002CFC0D1F850>) -> 0
+2025-10-16 19:42:37,247 [DEBUG] ASRL1::INSTR - opening ...
+2025-10-16 19:42:37,253 [DEBUG] viOpen(4097, 'ASRL1::INSTR', <AccessModes.no_lock: 0>, 0, '<ViObject object at 0x000002CFC0D1F6D0>') -> 0
+2025-10-16 19:42:37,254 [DEBUG] ASRL1::INSTR - is open with session 1
+2025-10-16 19:42:37,254 [DEBUG] viSetAttribute(1, 1073676314, 5000) -> 0
+2025-10-16 19:42:37,254 [DEBUG] viSetAttribute(1, <ResourceAttribute.termchar: 1073676312>, 10) -> 0
+2025-10-16 19:42:37,254 [DEBUG] viSetAttribute(1, <ResourceAttribute.termchar_enabled: 1073676344>, 1) -> 0
+2025-10-16 19:42:37,254 [DEBUG] viWrite(1, b'*IDN?\n', 6, 'c_ulong(6)') -> -1073807298
+2025-10-16 19:42:37,257 [INFO] [Status] 已連線：ASRL1::INSTR  
+2025-10-16 19:42:37,257 [INFO] [VISA] 連線成功：ASRL1::INSTR；IDN='N/A'
+2025-10-16 19:42:39,832 [INFO] [Excel] 已開啟檔案：C:\Users\jacky.fan\PyCharmMiscProject\Loader_test\dist\執行檔.xlsx，工作表數: 11（取前 11 張）
+2025-10-16 19:42:39,833 [DEBUG] [Excel] 第一張表名：執行檔
+2025-10-16 19:42:47,262 [DEBUG] viFindRsrc(4097, '?*::INSTR', '<ViObject object at 0x000002CFC0D60250>', 'c_ulong(2)', <ctypes.c_char_Array_256 object at 0x000002CFC0D604D0>) -> 0
+2025-10-16 19:42:47,262 [DEBUG] viFindNext(<ViObject object at 0x000002CFC0D60250>, <ctypes.c_char_Array_256 object at 0x000002CFC0D604D0>) -> 0
+2025-10-16 19:42:47,262 [DEBUG] viClose(<ViObject object at 0x000002CFC0D60250>,) -> 0
+2025-10-16 19:42:47,263 [INFO] [VISA] 掃描到資源: ('ASRL1::INSTR', 'ASRL2::INSTR')
+2025-10-16 19:42:47,264 [INFO] [Status] 共找到 2 個資源
+2025-10-16 19:42:47,266 [DEBUG] viParseRsrcEx(4097, 'ASRL1::INSTR', 'c_ushort(4)', 'c_ushort(1)', <ctypes.c_char_Array_256 object at 0x000002CFC0D603D0>, <ctypes.c_char_Array_256 object at 0x000002CFC0D60550>, <ctypes.c_char_Array_256 object at 0x000002CFC0D60850>) -> 0
+2025-10-16 19:42:47,266 [DEBUG] ASRL1::INSTR - opening ...
+2025-10-16 19:42:47,267 [DEBUG] viOpen(4097, 'ASRL1::INSTR', <AccessModes.no_lock: 0>, 0, '<ViObject object at 0x000002CFC0D60850>') -> 0
+2025-10-16 19:42:47,267 [DEBUG] ASRL1::INSTR - is open with session 2
+2025-10-16 19:42:47,268 [DEBUG] ASRL1::INSTR - closing
+2025-10-16 19:42:47,268 [DEBUG] viDisableEvent(1, <EventType.all_enabled: 1073709055>, <EventMechanism.all: 65535>) -> 1073676291
+2025-10-16 19:42:47,268 [DEBUG] viDiscardEvents(1, <EventType.all_enabled: 1073709055>, <EventMechanism.all: 65535>) -> 1073676292
+2025-10-16 19:42:47,268 [DEBUG] viClose(1,) -> 0
+2025-10-16 19:42:47,268 [DEBUG] ASRL1::INSTR - is closed
+2025-10-16 19:42:47,268 [DEBUG] viSetAttribute(2, 1073676314, 5000) -> 0
+2025-10-16 19:42:47,268 [DEBUG] viSetAttribute(2, <ResourceAttribute.termchar: 1073676312>, 10) -> 0
+2025-10-16 19:42:47,268 [DEBUG] viSetAttribute(2, <ResourceAttribute.termchar_enabled: 1073676344>, 1) -> 0
+2025-10-16 19:42:47,269 [DEBUG] viWrite(2, b'*IDN?\n', 6, 'c_ulong(6)') -> -1073807298
+2025-10-16 19:42:47,270 [INFO] [Status] 已連線：ASRL1::INSTR  
+2025-10-16 19:42:47,270 [INFO] [VISA] 連線成功：ASRL1::INSTR；IDN='N/A'
+2025-10-16 19:42:49,971 [INFO] [Excel] 已開啟檔案：C:\Users\jacky.fan\PyCharmMiscProject\Loader_test\dist\執行檔.xlsx，工作表數: 11（取前 11 張）
+2025-10-16 19:42:49,974 [DEBUG] [Excel] 第一張表名：執行檔
+2025-10-16 19:43:02,929 [DEBUG] [Excel] 工作簿已關閉（解除鎖定第一步）
+2025-10-16 19:43:03,904 [DEBUG] [Excel] Excel 應用已結束（鎖應該釋放）
+2025-10-16 19:43:06,573 [DEBUG] viParseRsrcEx(4097, 'ASRL1::INSTR', 'c_ushort(4)', 'c_ushort(1)', <ctypes.c_char_Array_256 object at 0x000002CFC0D60850>, <ctypes.c_char_Array_256 object at 0x000002CFC0D602D0>, <ctypes.c_char_Array_256 object at 0x000002CFC0D608D0>) -> 0
+2025-10-16 19:43:06,573 [DEBUG] ASRL1::INSTR - opening ...
+2025-10-16 19:43:06,574 [DEBUG] viOpen(4097, 'ASRL1::INSTR', <AccessModes.no_lock: 0>, 0, '<ViObject object at 0x000002CFC0D602D0>') -> 0
+2025-10-16 19:43:06,574 [DEBUG] ASRL1::INSTR - is open with session 1
+2025-10-16 19:43:06,574 [DEBUG] ASRL1::INSTR - closing
+2025-10-16 19:43:06,574 [DEBUG] viDisableEvent(2, <EventType.all_enabled: 1073709055>, <EventMechanism.all: 65535>) -> 1073676291
+2025-10-16 19:43:06,574 [DEBUG] viDiscardEvents(2, <EventType.all_enabled: 1073709055>, <EventMechanism.all: 65535>) -> 1073676292
+2025-10-16 19:43:06,575 [DEBUG] viClose(2,) -> 0
+2025-10-16 19:43:06,575 [DEBUG] ASRL1::INSTR - is closed
+2025-10-16 19:43:06,575 [DEBUG] viSetAttribute(1, 1073676314, 5000) -> 0
+2025-10-16 19:43:06,575 [DEBUG] viSetAttribute(1, <ResourceAttribute.termchar: 1073676312>, 10) -> 0
+2025-10-16 19:43:06,575 [DEBUG] viSetAttribute(1, <ResourceAttribute.termchar_enabled: 1073676344>, 1) -> 0
+2025-10-16 19:43:06,575 [DEBUG] viWrite(1, b'*IDN?\n', 6, 'c_ulong(6)') -> -1073807298
+2025-10-16 19:43:06,576 [INFO] [Status] 已連線：ASRL1::INSTR  
+2025-10-16 19:43:06,576 [INFO] [VISA] 連線成功：ASRL1::INSTR；IDN='N/A'
+2025-10-16 19:43:09,010 [INFO] [Excel] 已開啟檔案：C:\Users\jacky.fan\PyCharmMiscProject\Loader_test\dist\執行檔.xlsx，工作表數: 11（取前 11 張）
+2025-10-16 19:43:09,012 [DEBUG] [Excel] 第一張表名：執行檔
+2025-10-16 19:43:11,079 [DEBUG] viWrite(1, b'PROG:SEQ:CLE 1\n', 15, 'c_ulong(15)') -> -1073807298
