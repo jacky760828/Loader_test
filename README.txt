@@ -1,6 +1,7 @@
 wxPython Demo and Samples
 =========================
-<img src="main/loadtest.png" width="200">
+![同步抽載 UI](/mnt/data/loadtest.png)
+
 This archive contains a copy of the wxPython Phoenix demo, and also a
 collection of small sample applications.
 
