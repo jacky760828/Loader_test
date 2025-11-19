@@ -1,6 +1,6 @@
 wxPython Demo and Samples
 =========================
-<img src="loadtest.png" width="200">
+<img src="main/loadtest.png" width="200">
 This archive contains a copy of the wxPython Phoenix demo, and also a
 collection of small sample applications.
 
