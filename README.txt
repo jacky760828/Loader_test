@@ -1,6 +1,6 @@
 wxPython Demo and Samples
 =========================
-
+![Logo](loadtest.png)
 This archive contains a copy of the wxPython Phoenix demo, and also a
 collection of small sample applications.
 
