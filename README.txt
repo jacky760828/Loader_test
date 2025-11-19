@@ -1,7 +1,7 @@
 wxPython Demo and Samples
 =========================
 
-
+<img src="images/loadtest.png" width="700">
 This archive contains a copy of the wxPython Phoenix demo, and also a
 collection of small sample applications.
 
