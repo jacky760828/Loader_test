@@ -1,4 +1,4 @@
 
 <p align="center">
-  <img src="image/同步.png" width="600">
+  <img src="image/sync.png" width="600">
 </p>
