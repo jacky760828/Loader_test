@@ -1,6 +1,4 @@
-![UI](https://raw.githubusercontent.com/jacky760828/Loader_test/main/loadtest.png)
 
-
-
-
-
+<p align="center">
+  <img src="image/JLINKTEST.png" width="600">
+</p>
