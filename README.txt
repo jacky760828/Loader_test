@@ -1,1 +1,3 @@
-![sync](image/sync.png)
+
+
+![遊戲畫面](images/demo.png)
