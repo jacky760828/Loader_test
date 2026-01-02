@@ -1,4 +1,6 @@
-![UI](https://raw.githubusercontent.com/jacky760828/Loader_test/main/loadtest.png)
+<p align="center">
+  <img src="img/同步.png">
+</p>
 
 
 
