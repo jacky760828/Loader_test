@@ -1,3 +1,3 @@
 <p align="center">
-  <img src="image/sync.png" width="600">
+  <img src="image/sync.png" width="800">
 </p>
