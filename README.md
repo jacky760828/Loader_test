@@ -1,1 +1,3 @@
-![遊戲畫面](image/sync.png)
+<p align="center">
+  <img src="image/sync.png" width="600">
+</p>
